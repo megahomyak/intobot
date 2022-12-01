@@ -52,9 +52,9 @@ def fake_print(meta, message):
 
 
 def fake_input(meta, query=""):
+    user_ids_to_states[meta.user_id] = True
     if str(query):
         fake_print(meta, query)
-    user_ids_to_states[meta.user_id] = True
     while type(user_ids_to_states[meta.user_id]) is not str:
         pass
     response = user_ids_to_states[meta.user_id]

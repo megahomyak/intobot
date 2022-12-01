@@ -13,3 +13,5 @@ Use it like this:
 Everything above that is in brackets needs to be filled by you. (Brackets should be omitted.)
 
 When the script ends, the user is not served anymore, so to serve the user infinitely, add an infinite loop to the script. This was made to allow better flexibility and make it as close to console execution of scripts as possible.
+
+[Predecessor: every_script_is_a_vk_bot](https://github.com/megahomyak/every_script_is_a_vk_bot)
